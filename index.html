@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tres en Raya</title>
+	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="wrapper">
+	<div id="container">
+		<h1>Tres en Raya</h1>
+		<div id="tabla">
+			<table cellpadding="50" width="300">
+			<tr>
+				<td id="td1" onclick="pintarTabla('td1')"></td>
+				<td id="td2" onclick="pintarTabla('td2')"></td>
+				<td id="td3" onclick="pintarTabla('td3')"></td>
+			</tr>
+			<tr>
+				<td id="td4" onclick="pintarTabla('td4')"></td>
+				<td id="td5" onclick="pintarTabla('td5')"></td>
+				<td id="td6" onclick="pintarTabla('td6')"></td>
+			</tr>
+			<tr>
+				<td id="td7" onclick="pintarTabla('td7')"></td>
+				<td id="td8" onclick="pintarTabla('td8')"></td>
+				<td id="td9" onclick="pintarTabla('td9')"></td>
+			</tr>
+			</table>
+		</div>
+		<div class="btnred" onclick="vaciarTabla()">JUGAR DE NUEVO</div>
+		<div id="puntos">
+			<table>
+				<th>JUGADOR 1</th><th>JUGADOR 2</th><th>EMPATES</th>
+				<tr>
+					<td id="ganadas1">0</td>
+					<td id="ganadas2">0</td>
+					<td id="empates">0</td>
+				</tr>
+			</table>
+		</div>
+		<div id="gana"></div>
+	</div>
+</div>
+<script type="text/javascript" src="js/javascript.js"></script>
+</body>
+</html>
